@@ -7,7 +7,7 @@ My comprehensive collection of machine learning, deep learning, and NLP projects
 ## 📊 Maths
 
 ### Statistics 
-- **Basic Statistical Definitions (Population vs. Sample)**
+- **Population vs. Sample**
 - **Types of Variables**
   - Categorical: Nominal / Ordinal
   - Numerical: Discrete / Continuous
