@@ -130,8 +130,7 @@ My comprehensive collection of machine learning, deep learning, and NLP projects
 - **Types of Machine Learning**
   - (Supervised, Unsupervised, Reinforcement)
 - **Supervised vs. Unsupervised**
-- **Key Differences**
-  - (Classification vs. Regression)
+- **(Classification vs. Regression)**
 - **Linear Regression**
 - **Simple Linear Regression**
 - **Multiple Linear Regression**
