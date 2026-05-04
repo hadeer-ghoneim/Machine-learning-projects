@@ -1,6 +1,6 @@
 # Machine Learning Projects
 
-My comprehensive collection of machine learning, deep learning, and NLP projects covering concepts from statistics and Python programming to advanced Machine Learning Models, NLP and transformer architectures.
+My comprehensive collection of machine learning, deep learning, and NLP projects covering concepts from statistics and Python programming to advanced EDA, Machine Learning Models, NLP and transformer architectures.
 
 ---
 
