@@ -274,7 +274,85 @@ My comprehensive collection of machine learning, deep learning, and NLP projects
 
 ---
 
-## 🧠 Deep Learning & NLP
+## ⚙️ Deep Learning
+
+### Foundations
+- **The Difference Between Deep Learning and Machine Learning**
+  - (Manual Feature Extraction in ML vs Automatic in DL, Data Requirements, Computational Power)
+- **How Deep Learning Extracts Features**
+- **Why is Deep Learning Gaining Popularity?**
+  - (Big Data, Improved Hardware GPUs, New Techniques)
+- **Why Deep Learning?**
+  - (Performance Plateau in ML vs Continuous Improvement in DL)
+- **Neurons and Perceptrons**
+  - What is a Neuron? (Biological vs Artificial)
+  - How an Artificial Neuron Works (Inputs, Weights, Weighted Sum, Bias, Activation Function)
+  - The Simplest Neural Network (Perceptron)
+  - Mathematical Representation of a Perceptron
+  - Limitations of a Perceptron (Linear Decision Boundaries, No Hidden Layers)
+  - From Perceptrons to Neural Networks (Multiple Layers, Non-Linear Activation Functions)
+- **Activation Functions Overview**
+  - (Sigmoid, ReLU, Tanh)
+- **Feedforward Neural Networks (FNNs)**
+  - Architecture (Input Layer, Hidden Layers, Output Layer)
+  - One-way Data Flow
+  - Fully Connected Neurons
+  - Neuron Operations
+- **Backpropagation and Gradient Descent**
+  - What is Backpropagation? (Forward Pass, Compute Loss, Backward Pass)
+  - What is Gradient Descent? (Compute Gradient, Update Weights, Repeat)
+  - How Backpropagation and Gradient Descent Work Together
+
+### Advanced Techniques
+- **Deeper Neural Networks and Hidden Layers**
+  - What is a Deep Neural Network (DNN)?
+  - Why Add More Hidden Layers? (Simple Patterns in Shallow Networks, Complex Patterns in Deep Networks)
+  - How Data Passes Through a Deep Neural Network
+- **Vanishing Gradient Problem**
+  - How Activation Functions Affect the Vanishing Gradient Problem
+  - Sigmoid Activation Function (How it causes vanishing gradients, Output saturation, Small derivatives)
+  - Tanh Activation Function (Output range -1 to 1, Still suffers from vanishing gradients)
+  - ReLU (Rectified Linear Unit) Activation Function (No saturation for positive inputs, Gradient of 1 for positive values)
+  - Advantages of ReLU (Efficient Gradient Flow, Sparsity)
+  - Potential Issue: Dying ReLU Problem (Leaky ReLU, Parametric ReLU as solutions)
+- **Overfitting and Regularization Techniques**
+  - What is Overfitting? (Low training error but high validation/test error)
+  - Signs of Overfitting
+  - L2 Regularization (Weight Decay)
+  - L1 Regularization (Sparse models, Feature selection)
+  - Dropout (Randomly drops neurons during training)
+  - Early Stopping (Stop training when validation error increases)
+- **Optimization Techniques**
+  - Maxima and Minima (Global Max/Min, Local Max/Min)
+  - Gradient Descent Variants (Batch GD, Stochastic GD SGD, Mini-batch GD)
+  - Advanced Optimization Algorithms
+  - Momentum (Accelerates convergence, Reduces oscillations)
+  - Adam (Adaptive Moment Estimation) (Combines RMSProp and Momentum, Adaptive learning rates)
+
+### TensorFlow & Advanced Techniques
+- **TensorFlow**
+  - TensorFlow v1 (Legacy Version) (Define computation graph, Placeholders, Sessions)
+  - TensorFlow v2 (Modern Version) (Eager execution by default, No sessions needed)
+  - Support for Keras (Sequential API, Dense layers, Model compilation)
+  - Backward Compatibility (Using tensorflow.compat.v1)
+- **Introduction to Transfer Learning**
+  - Using Pre-trained VGG16
+  - Freezing base model layers
+  - Adding custom top layers (Flatten, Dense, Softmax)
+  - Data Preparation with ImageDataGenerator
+- **Hyperparameter Tuning**
+  - Keras Tuner (RandomSearch)
+  - Building a model with hyperparameters (hp.Int for units, hp.Choice for learning rate)
+  - Objective: val_accuracy
+  - Getting the best model
+- **Early Stopping and Model Checkpointing**
+  - EarlyStopping Callback (monitor='val_loss', patience, restore_best_weights)
+  - ModelCheckpoint Callback (save_best_only=True)
+  - Training with callbacks
+
+---
+
+## 🧠 NLP
 
 ### Natural Language Processing (NLP) - Basics
 - **Applications In NLP**
