@@ -7,7 +7,6 @@ My comprehensive collection of machine learning, deep learning, and NLP projects
 ## 📊 Maths
 
 ### Statistics 
-- **Importance of Statistics in AI and Machine Learning**
 - **Basic Statistical Definitions (Population vs. Sample)**
 - **Types of Variables**
   - Categorical: Nominal / Ordinal
